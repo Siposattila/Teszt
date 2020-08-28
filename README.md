@@ -1,5 +1,5 @@
 # Teszt feladat
-### Kérlek ezt a bekezdést olvasd el mielőtt neki ugrasz
+### Kérlek olvasd el mielőtt neki kezdesz
 Egy kis cégnél dolgozol aminek most készül a weblapja. Tele van helykitöltővel, hogy lehessen tudni mi hova kell.
 A cég egy nagyon menő verziókezelőt használ a Githubot. Van külön számodra egy külön branch amit front-end-nek hívnak.
 A projektvezető megkért, hogy csak ebbe dolgozz.
