@@ -133,3 +133,34 @@ nav ul li a {
 	border-radius: 5px;
 	margin-bottom: 1.5rem;
 }
+
+/*Form page*/
+.form-background {
+	position: relative;
+	height: 400px;
+	background-image: url('./imgs/sea-world.jpg');
+	background-position: bottom;
+	background-size: cover;
+	z-index: -1;
+}
+
+.animal-form {
+	margin: 2rem;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.animal-form .input-group {
+	margin: 1rem;
+}
+
+.animal-form .input-group-addon {
+	width: 200px;
+}
+
+.delete-button {
+	display: block;
+	margin: auto;
+}
