@@ -61,5 +61,55 @@ window.onload = () => {
         });
     }
 
+    //form page
+    const animalsContainer = document.querySelector('.animals-container');
+
+    const animals = [
+        {
+            id: 1,
+            name: 'Lia',
+            breed: 'Golden Retriever',
+            age: 2
+        },
+        {
+            id: 2,
+            name: 'Nemo',
+            breed: 'Clown Fish',
+            age: 1
+        }
+    ];
+    let animalInputGroups = '';
+
+    for (let animal of animals) {
+        animalInputGroups += `
+        <div class="animal-form">
+            <form action="#" >
+            <div class="input-group">
+                <span class="input-group-addon" id="animal-name">Name</span>
+                <input type="text" class="form-control" placeholder=${animal.name} aria-describedby="basic-addon1">
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon" id="animal-breed">Breed</span>
+                <input type="text" class="form-control" placeholder="${animal.breed}" aria-describedby="basic-addon1">
+            </div>  
+            <div class="input-group">
+                <span class="input-group-addon" id="animal-age">Age</span>
+                <input type="number" class="form-control" placeholder="${animal.age}" aria-describedby="basic-addon1">
+            </div>
+                <input type="submit" value="DELETE"  data-id="${animal.id}" class="btn btn-default delete-button">  
+            </form>
+        </div>        
+        `;
+    }
+
+    animalsContainer.innerHTML = animalInputGroups;
+    animalsContainer.addEventListener('click', (ev) => {
+        //the id is useful if we want to delete from a database
+        //console.log(ev.target.getAttribute("data-id"));
+
+        //let's delete the parent of the button which is the input-group in a form
+        ev.target.parentNode.style.display = "none";
+    });
+
 
 }

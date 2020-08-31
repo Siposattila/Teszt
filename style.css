@@ -145,11 +145,15 @@ nav ul li a {
 }
 
 .animal-form {
-	margin: 2rem;
+	margin: 3rem;
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
+	border: 1px solid #777;
+	border-radius: 8px;
+	box-shadow: 1px 1px 5px #777;
+	padding: 2.5rem 0;
 }
 
 .animal-form .input-group {
