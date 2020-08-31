@@ -1,7 +1,7 @@
 # Teszt feladat
 ### Kérlek olvasd el mielőtt neki kezdesz
 Egy kis cégnél dolgozol aminek most készül a weblapja. Tele van helykitöltővel, hogy lehessen tudni mi hova kell.
-A cég egy nagyon menő verziókezelőt használ a Githubot. Neked létre kell hoznod egy külön branchet amit a következő kell elnevezned: front-end-NEVEDIDE.
+A cég egy nagyon menő verziókezelőt használ a Githubot. Neked létre kell hoznod egy külön branchet amit a következő képpen kell elnevezned: front-end-NEVEDIDE.
 A projektvezető megkért, hogy csak ebbe dolgozz.
 
 A már létező fájlok közül tehát a következőket módosíthatod:
