@@ -1,0 +1,135 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--left-margin: 4rem;
+	--light-color: #dfdfdf;
+	--theme-color: #8eaeb9;
+}
+
+/*Navigation (2020.08.31) Juli*/
+
+nav {
+	padding: 2rem;
+	width: 100%;
+	position: fixed;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	background: rgba(0, 0, 0, 0.3);
+}
+
+nav ul {
+	float: right;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: var(--light-color);
+	font-size: 1.5rem;
+}
+
+#brandName {
+	display: inline-block;
+	margin: 0 2rem 0 var(--left-margin);
+	color: var(--light-color);
+}
+
+/*Footer (2020.08.31) Juli*/
+.footer {
+	background: var(--theme-color);
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 2rem;
+	color: #fff;
+	position: relative;
+	width: 100%;
+}
+
+/*Home page (2020.08.31) Juli*/
+.intro-background {
+	position: relative;
+	height: 400px;
+	background-image: url('./imgs/mountains.jpg');
+	background-position: bottom;
+	background-size: cover;
+	z-index: -1;
+}
+
+.page-heading {
+	position: absolute;
+	top: 65%;
+	margin-left: 8rem;
+	color: var(--light-color);
+}
+
+.login-btn {
+	padding: 0.7rem;
+	background: rgba(255, 255, 255, 0.5);
+	border: 1px solid transparent;
+	border-radius: 4px;
+	color: rgba(0, 0, 0, 0.5);
+	font-weight: 700;
+	margin: 0 1.5rem;
+}
+
+.login-btn:hover {
+	transform: scale(1.05);
+}
+
+.search-bar .input-group {
+	position: relative;
+	width: 57%;
+	margin: 2.5rem auto;
+}
+
+.input-group-addon:last-child {
+	background-color: var(--theme-color);
+	color: #fff;
+}
+
+.article-list {
+	padding: 1rem;
+	background: var(--theme-color);
+	color: #f1f1f1;
+	margin: 2rem;
+	border-radius: 15px;
+}
+
+.article-list li {
+	list-style-type: none;
+	padding: 1rem 0;
+}
+
+.article-list li a {
+	margin-left: 3rem;
+	color: #fff;
+	padding: 1rem;
+	font-size: 1.8rem;
+	cursor: pointer;
+}
+
+.article-list li a:hover {
+	text-decoration: none;
+	color: #fff;
+	text-shadow: 1px 1px 3px #777;
+}
+
+.page-content {
+	background: #8eaeb954;
+	padding: 1.5rem 3.5rem;
+	line-height: 1.7;
+	border-radius: 5px;
+	margin-bottom: 1.5rem;
+}
