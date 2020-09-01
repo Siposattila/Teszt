@@ -1,5 +1,13 @@
 Change log
 
+## Version 1.0.2
+
+about page picture added
+---
+short lorem introduction added
+---
+custom personel cards added
+
 ## Version 1.0.1
 
 contect page image added
