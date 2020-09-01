@@ -31,7 +31,7 @@ $backend = "Ez már backend-nek számít";
     <!-- Main Menu -->
     <nav>
     <!-- there is already a h1 on the home page, that is enough for the SEO, I would use h3 -->
-    <h1 id="brandName" class="h3 text-muted">Site Name</h1>
+    <h1 id="brandName" class="h3 text-muted"><a href="index.php">Site Name</a></h1>
     <ul class="nav nav-pills">
         <li><a href="index.php">Home</a></li>
         <li><a href="form.php">Form</a></li>

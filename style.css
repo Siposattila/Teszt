@@ -41,7 +41,15 @@ nav ul li a {
 #brandName {
 	display: inline-block;
 	margin: 0 2rem 0 var(--left-margin);
+}
+
+#brandName a {
 	color: var(--light-color);
+	text-decoration: none;
+}
+
+#brandName a:hover {
+	text-decoration: none;
 }
 
 /*Footer (2020.08.31) Juli*/
