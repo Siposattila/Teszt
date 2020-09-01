@@ -211,3 +211,48 @@ nav ul li a {
 	margin: 3rem auto;
 	box-shadow: 2px 2px 10px #777;
 }
+
+/*About page*/
+
+.team-background {
+	position: relative;
+	height: 400px;
+	background-image: url('./imgs/team-unsplash.jpg');
+	background-position: center;
+	background-size: cover;
+	z-index: -1;
+	margin-bottom: 2rem;
+}
+
+.short-introduction,
+.team-members {
+	padding: 1rem var(--left-margin);
+}
+
+.team-members {
+	margin-bottom: 2.5rem;
+}
+
+.team-members img {
+	width: 200px;
+	border-radius: 50%;
+	margin-top: 3rem;
+	position: relative;
+	left: 50%;
+	transform: translate(-100px);
+}
+
+@media screen and (max-width: 768px) {
+	.team-members img {
+		margin-top: 3rem;
+	}
+}
+
+.team-members h4 {
+	color: var(--theme-color);
+	text-align: center;
+}
+
+.team-members p {
+	text-align: center;
+}
