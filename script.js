@@ -61,7 +61,7 @@ window.onload = () => {
         });
     }
 
-    //form page
+    //form page 
     const animalsContainer = document.querySelector('.animals-container');
 
     const animals = [
@@ -101,15 +101,18 @@ window.onload = () => {
         </div>        
         `;
     }
+    //if the container exists
+    if (animalsContainer !== null) {
+        animalsContainer.innerHTML = animalInputGroups;
+        animalsContainer.addEventListener('click', (ev) => {
+            //the id is useful if we want to delete from a database
+            //console.log(ev.target.getAttribute("data-id"));
 
-    animalsContainer.innerHTML = animalInputGroups;
-    animalsContainer.addEventListener('click', (ev) => {
-        //the id is useful if we want to delete from a database
-        //console.log(ev.target.getAttribute("data-id"));
+            //let's delete the parent of the button 
+            ev.target.parentNode.parentNode.style.display = "none";
+        });
+    }
 
-        //let's delete the parent of the button which is the input-group in a form
-        ev.target.parentNode.style.display = "none";
-    });
 
 
 }

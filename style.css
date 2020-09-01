@@ -20,7 +20,8 @@ nav {
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
-	background: rgba(0, 0, 0, 0.3);
+	background: rgba(0, 0, 0, 0.6);
+	z-index: 99;
 }
 
 nav ul {
@@ -167,4 +168,46 @@ nav ul li a {
 .delete-button {
 	display: block;
 	margin: auto;
+}
+
+/*Contact page (2020.08.31) Juli*/
+
+.contact-background {
+	position: relative;
+	height: 400px;
+	background-image: url('./imgs/handshake-unsplash.jpg');
+	background-position: center;
+	background-size: cover;
+	z-index: -1;
+}
+
+.contact-background .page-heading {
+	color: #444;
+}
+
+.contact-information {
+	line-height: 1.7;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+}
+
+.contact-details {
+	font-size: 1.6rem;
+	font-weight: 200;
+}
+
+.contact-details h4 {
+	color: var(--theme-color);
+	margin-top: 3rem;
+}
+
+.location {
+	text-align: center;
+}
+
+.location img {
+	display: block;
+	margin: 3rem auto;
+	box-shadow: 2px 2px 10px #777;
 }

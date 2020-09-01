@@ -1,5 +1,17 @@
 Change log
 
+## Version 1.0.1
+
+contect page image added
+---
+nav color modified -> darker for more contrast
+---
+contact information and their styling
+---
+street image with box shadow but without Google API key
+---
+fixing a bug related the delete functionality
+
 ## Version 1.0.0
 
 **New files created:**
@@ -32,3 +44,8 @@ adding a javascript file
 ---
 the article changes as a function of which link was clicked
 ---
+form group designed
+---
+dynamic generation of multiple form groups via javascript
+---
+delete functionality added
