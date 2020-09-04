@@ -12,3 +12,19 @@ nav {
 .container {
     box-shadow: 8px 5px 20px gray;
 }
+div {
+    margin-bottom: 5px;
+}
+
+.card{
+    background: rgb(221, 221, 221);
+    border-radius: 1.5em;
+    padding: 1.5em;
+    border: solid gray 2px;
+}
+.card span {
+    font-weight: bold;
+}
+button{
+    float: right;
+}

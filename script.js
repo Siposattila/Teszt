@@ -1,5 +1,6 @@
 window.onload = () => {
-    /*Szükséges konstansok.*/ //(2020.09.04.) Arnold
+    /*---------- Index ----------*/     //(2020.09.04.) Arnold
+    /*Szükséges konstansok.*/ 
     const ARTICLE_HERE = document.querySelector(".page-contents");   //Ahol megjelenik a szöveg
     const ARTICLE_PICK = document.querySelectorAll(".article");     //Cikk választó menüpontok 
 
@@ -30,7 +31,7 @@ window.onload = () => {
         Fusce finibus a quam quis mattis.</p>`
     }
     ];
-    /* Cikk váltás */ //(2020.09.04.) Arnold
+    /* Cikk váltás */   //(2020.09.04.) Arnold
     function articleChange(id) {
         for (let deactive of ARTICLE_PICK) {    //Deaktiválja az összes menüpontot
             deactive.classList.remove('active')
@@ -46,4 +47,4 @@ window.onload = () => {
     }
     articleChange(0)    //Betöltésnél az Article 1 az alapértelmezett cikk
 }
-
+/*---------- /Index ----------*/
