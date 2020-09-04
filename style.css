@@ -1,0 +1,14 @@
+header {
+    background: url('img/index-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 0px 10px 300px 10px;
+    border-bottom-left-radius: 20em;
+    border-bottom-right-radius: 2em;
+}
+nav {
+    font-weight: 800;
+}
+.container {
+    box-shadow: 8px 5px 20px gray;
+}
