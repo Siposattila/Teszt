@@ -17,14 +17,11 @@ div {
 }
 
 .card{
-    background: rgb(221, 221, 221);
+    background: rgb(218, 222, 248);
     border-radius: 1.5em;
     padding: 1.5em;
-    border: solid gray 2px;
+    border: solid rgb(59, 84, 248) 2px;
 }
 .card span {
     font-weight: bold;
-}
-button{
-    float: right;
 }

@@ -58,7 +58,7 @@ $backend = "Ez már backend-nek számít";
 
         <div class="row">
             <!-- Form inputs -->
-            <div class="col-sm-4">
+            <div class="col-sm-3">
                 <form>
                     <fieldset>
                         <legend>New</legend>
@@ -87,7 +87,7 @@ $backend = "Ez már backend-nek számít";
 
             </div>
 
-            <div class="col-sm-2">
+            <div class="col-sm-3">
 
                 <!-- Login Section -->
                 <input type="text" class="form-control" name="login" id="login" placeholder="Login"
